@@ -2,7 +2,7 @@
 #define PERSON_H
 
 #include <iostream>
-#include <string>
+#include <cstdlib>
 
 using namespace std;
 
@@ -11,46 +11,30 @@ class person
     public:
         /** Default constructor */
         person();
-        /** Default destructor */
-        virtual ~person();
-        /** Copy constructor
-         *  \param other Object to copy from
-         */
+        person(string _name); /// for experimental purpose
         person(const person& other);
-        /** Assignment operator
-         *  \param other Object to assign from
-         *  \return A reference to this
-         */
         person& operator=(const person& other);
 
         /** Access name
          * \return The current value of name
          */
-        string Getname() { return name; }
+        string Getname() const{ return name; }
         /** Set name
          * \param val New value to set
          */
         void Setname(string val) { name = val; }
-        /** Access birhtInfos
-         * \return The current value of birhtInfos
+        /** Access DOB
+         * \return The current value of DOB
          */
-        string GetbirhtInfos() { return birhtInfos; }
-        /** Set birhtInfos
+        string GetDOB() const{ return DOB; }
+        /** Set DOB
          * \param val New value to set
          */
-        void SetbirhtInfos(string val) { birhtInfos = val; }
-        /** Access address
-         * \return The current value of address
-         */
-        string Getaddress() { return address; }
-        /** Set address
-         * \param val New value to set
-         */
-        void Setaddress(string val) { address = val; }
+        void SetDOB(string val) { DOB = val; }
         /** Access phone
          * \return The current value of phone
          */
-        string Getphone() { return phone; }
+        string Getphone() const{ return phone; }
         /** Set phone
          * \param val New value to set
          */
@@ -58,7 +42,7 @@ class person
         /** Access country
          * \return The current value of country
          */
-        string Getcountry() { return country; }
+        string Getcountry() const{ return country; }
         /** Set country
          * \param val New value to set
          */
@@ -66,7 +50,7 @@ class person
         /** Access parentInfo
          * \return The current value of parentInfo
          */
-        string GetparentInfo() { return parentInfo; }
+        string GetparentInfo() const{ return parentInfo; }
         /** Set parentInfo
          * \param val New value to set
          */
@@ -74,7 +58,7 @@ class person
         /** Access gender
          * \return The current value of gender
          */
-        string Getgender() { return gender; }
+        string Getgender() const{ return gender; }
         /** Set gender
          * \param val New value to set
          */
@@ -82,31 +66,40 @@ class person
         /** Access email
          * \return The current value of email
          */
-        string Getemail() { return email; }
+        string Getemail() const{ return email; }
         /** Set email
          * \param val New value to set
          */
         void Setemail(string val) { email = val; }
+        /** Access address
+         * \return The current value of address
+         */
+        string Getaddress() const{ return address; }
+        /** Set address
+         * \param val New value to set
+         */
+        void Setaddress(string val) { address = val; }
         /** Access profession
          * \return The current value of profession
          */
-        string Getprofession() { return profession; }
+        string Getprofession() const{ return profession; }
         /** Set profession
          * \param val New value to set
          */
         void Setprofession(string val) { profession = val; }
 
+
     protected:
 
     private:
         string name; //!< Member variable "name"
-        string birhtInfos; //!< Member variable "birthInfos"
-        string address; //!< Member variable "address"
+        string DOB; //!< Member variable "DOB"
         string phone; //!< Member variable "phone"
         string country; //!< Member variable "country"
         string parentInfo; //!< Member variable "parentInfo"
         string gender; //!< Member variable "gender"
         string email; //!< Member variable "email"
+        string address; //!< Member variable "address"
         string profession; //!< Member variable "profession"
 };
 

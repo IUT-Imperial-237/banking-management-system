@@ -3,53 +3,48 @@
 person::person()
 {
     //ctor
-    this -> name = "default Name"; //!< Member variable "name"
-    this -> birhtInfos = "default birhtInfos"; //!< Member variable "birthInfos"
-    this -> address = "default address"; //!< Member variable "address"
-    this -> phone = "default phone"; //!< Member variable "phone"
-    this -> country = "default country"; //!< Member variable "country"
-    this -> parentInfo = "default parentInfo"; //!< Member variable "parentInfo"
-    this -> gender = "default gender"; //!< Member variable "gender"
-    this -> email = "default email"; //!< Member variable "email"
-    this -> profession = "default profession"; //!< Member variable "profession"
-
+    this->name="Enter Name ::  ";
+    this->DOB="Enter DOB ::  ";
+    this->gender="Enter Gender ::  ";
+    this->country="Enter Country ::  ";
+    this->profession="Enter Profession ::  ";
+    this->parentInfo="Enter Father/Mother's Name ::  ";
+    this->email="Enter Email ::  ";
+    this->phone="Enter Phone ::  ";
+    this->address="Enter Address ::  ";
 }
 
-person::~person()
+person::person(string _name)
 {
-    //dtor
+    this->name = _name;
 }
 
 person::person(const person& other)
 {
     //copy ctor
-    this->name = other.Getname();
-    this->birhtInfos = other.GetbirhtInfos();
-    this->address = other.Getaddress();
-    this->phone = other.Getphone();
-    this->country = other.Getcountry();
-    this->parentInfo = other.GetparentInfo();
-    this->gender = other.Getgender();
-    this->email = other.Getemail();
-    this->profession = other.Getprofession();
+    this->name=other.Getname();
+    this->DOB=other.GetDOB();
+    this->gender=other.Getgender();
+    this->country=other.Getcountry();
+    this->profession=other.Getprofession();
+    this->parentInfo=other.GetparentInfo();
+    this->email=other.Getemail();
+    this->phone=other.Getphone();
+    this->address=other.Getaddress();
 }
 
 person& person::operator=(const person& rhs)
 {
-    if (this == &rhs)
-        return *this; // handle self assignment
+    if (this == &rhs) return *this; // handle self assignment
     //assignment operator
-    else
-    {
-        this->name = rhs.Getname();
-        this->birhtInfos = rhs.GetbirhtInfos();
-        this->address = rhs.Getaddress();
-        this->phone = rhs.Getphone();
-        this->country = rhs.Getcountry();
-        this->parentInfo = rhs.GetparentInfo();
-        this->gender = rhs.Getgender();
-        this->email = rhs.Getemail();
-        this->profession = rhs.Getprofession();
-        return *this;
-    }
+    this->name=rhs.Getname();
+    this->DOB=rhs.GetDOB();
+    this->gender=rhs.Getgender();
+    this->country=rhs.Getcountry();
+    this->profession=rhs.Getprofession();
+    this->parentInfo=rhs.GetparentInfo();
+    this->email=rhs.Getemail();
+    this->phone=rhs.Getphone();
+    this->address=rhs.Getaddress();
+    return *this;
 }
