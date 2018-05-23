@@ -1,28 +1,24 @@
-#ifndef ADMIN_H
-#define ADMIN_H
+#ifndef STAFF_H
+#define STAFF_H
 
 #include "person.h"
 #include "date_.h"
 
 
-class admin : public person
+class staff : public person
 {
     public:
         /** Default constructor */
-        admin();
+        staff();
         /** Copy constructor
          *  \param other Object to copy from
          */
-        admin(const admin& other);
-        /** Copy constructor
-         *  \param p_other Object to copy from
-         */
-        admin(const person& p_other);
+        staff(const staff& other);
         /** Assignment operator
          *  \param other Object to assign from
          *  \return A reference to this
          */
-        admin& operator=(const admin& other);
+        staff& operator=(const staff& other);
 
         /** Access username
          * \return The current value of username
@@ -40,6 +36,14 @@ class admin : public person
          * \param val New value to set
          */
         void Setpassword(string val) { password = val; }
+        /** Access category
+         * \return The current value of category
+         */
+        string Getcategory() const{ return category; }
+        /** Set category
+         * \param val New value to set
+         */
+        void Setcategory(string val) { category = val; }
         /** Access created_date
          * \return The current value of created_date
          */
@@ -56,43 +60,15 @@ class admin : public person
          * \param val New value to set
          */
         void Setsalary(long double val) { salary = val; }
-        /** Access category
-         * \return The current value of category
-         */
-        string Getcategory() const{ return category; }
-        /** Set category
-         * \param val New value to set
-         */
-        void Setcategory(string val) { category = val; }
-        /** Access next
-         * \return The current value of next
-         */
-        admin* Getnext() const{ return next; }
-        /** Set next
-         * \param val New value to set
-         */
-        void Setnext(admin* val) { next = val; }
-        /** Access previous
-         * \return The current value of previous
-         */
-        admin* Getprevious() const{ return previous; }
-        /** Set previous
-         * \param val New value to set
-         */
-        void Setprevious(admin* val) { previous = val; }
-
 
     protected:
 
     private:
         string username; //!< Member variable "username"
         string password; //!< Member variable "password"
+        string category; //!< Member variable "category"
         date_ created_date; //!< Member variable "created_date"
         long double salary; //!< Member variable "salary"
-        string category; //!< Member variable "category"
-        admin* next; //!< Member variable "next"
-        admin* previous; //!< Member variable "previous"
-
 };
 
-#endif // ADMIN_H
+#endif // STAFF_H
