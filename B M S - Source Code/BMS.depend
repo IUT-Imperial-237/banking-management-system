@@ -1,0 +1,155 @@
+# depslib dependency file v1.0
+1529851307 source:c:\users\ser. amadou olabi\desktop\bms\account.cpp
+	"account.h"
+
+1529851307 c:\users\ser. amadou olabi\desktop\bms\account.h
+	<iostream>
+	<cstring>
+	"menu.h"
+
+1529870335 c:\users\ser. amadou olabi\desktop\bms\menu.h
+	<iostream>
+	<stdio.h>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+	<windows.h>
+	<conio.h>
+	<ctime>
+
+1529942618 source:c:\users\ser. amadou olabi\desktop\bms\admin.cpp
+	"admin.h"
+
+1529882434 c:\users\ser. amadou olabi\desktop\bms\admin.h
+	"person.h"
+	"menu.h"
+
+1529674928 c:\users\ser. amadou olabi\desktop\bms\person.h
+	<iostream>
+	<cstdlib>
+	<cstring>
+
+1529892246 source:c:\users\ser. amadou olabi\desktop\bms\client.cpp
+	"client.h"
+
+1529882412 c:\users\ser. amadou olabi\desktop\bms\client.h
+	"person.h"
+	"account.h"
+
+1529958085 source:c:\users\ser. amadou olabi\desktop\bms\main.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<conio.h>
+	"client.h"
+	"admin.h"
+	"menu.h"
+	"mechanism.h"
+
+1529959286 c:\users\ser. amadou olabi\desktop\bms\mechanism.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<ctime>
+	<ctype.h>
+	<conio.h>
+	"client.h"
+	"admin.h"
+	"menu.h"
+	"transaction.h"
+
+1529620936 c:\users\ser. amadou olabi\desktop\bms\transaction.h
+	"client.h"
+
+1529954858 source:c:\users\ser. amadou olabi\desktop\bms\mechanism.cpp
+	"mechanism.h"
+
+1529958427 source:c:\users\ser. amadou olabi\desktop\bms\menu.cpp
+	"menu.h"
+
+1529674916 source:c:\users\ser. amadou olabi\desktop\bms\person.cpp
+	"person.h"
+
+1529657195 source:c:\users\ser. amadou olabi\desktop\bms\transaction.cpp
+	"transaction.h"
+
+1529851307 source:c:\users\ser. amadou olabi\desktop\project final c++\b m s - source code\account.cpp
+	"account.h"
+
+1529851307 c:\users\ser. amadou olabi\desktop\project final c++\b m s - source code\account.h
+	<iostream>
+	<cstring>
+	"menu.h"
+
+1529870335 c:\users\ser. amadou olabi\desktop\project final c++\b m s - source code\menu.h
+	<iostream>
+	<stdio.h>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+	<windows.h>
+	<conio.h>
+	<ctime>
+
+1530133834 source:c:\users\ser. amadou olabi\desktop\project final c++\b m s - source code\admin.cpp
+	"admin.h"
+
+1530132357 c:\users\ser. amadou olabi\desktop\project final c++\b m s - source code\admin.h
+	"person.h"
+	"menu.h"
+
+1529674928 c:\users\ser. amadou olabi\desktop\project final c++\b m s - source code\person.h
+	<iostream>
+	<cstdlib>
+	<cstring>
+
+1529892246 source:c:\users\ser. amadou olabi\desktop\project final c++\b m s - source code\client.cpp
+	"client.h"
+
+1529882412 c:\users\ser. amadou olabi\desktop\project final c++\b m s - source code\client.h
+	"person.h"
+	"account.h"
+
+1530138208 source:c:\users\ser. amadou olabi\desktop\project final c++\b m s - source code\main.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<conio.h>
+	"client.h"
+	"admin.h"
+	"menu.h"
+	"mechanism.h"
+
+1529959286 c:\users\ser. amadou olabi\desktop\project final c++\b m s - source code\mechanism.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<ctime>
+	<ctype.h>
+	<conio.h>
+	"client.h"
+	"admin.h"
+	"menu.h"
+	"transaction.h"
+
+1529620936 c:\users\ser. amadou olabi\desktop\project final c++\b m s - source code\transaction.h
+	"client.h"
+
+1530139598 source:c:\users\ser. amadou olabi\desktop\project final c++\b m s - source code\mechanism.cpp
+	"mechanism.h"
+
+1530138816 source:c:\users\ser. amadou olabi\desktop\project final c++\b m s - source code\menu.cpp
+	"menu.h"
+
+1529674916 source:c:\users\ser. amadou olabi\desktop\project final c++\b m s - source code\person.cpp
+	"person.h"
+
+1529657195 source:c:\users\ser. amadou olabi\desktop\project final c++\b m s - source code\transaction.cpp
+	"transaction.h"
+
