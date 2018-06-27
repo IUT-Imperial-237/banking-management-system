@@ -1,12 +1,11 @@
 # depslib dependency file v1.0
-1529942974 source:c:\users\ser. amadou olabi\desktop\test_project_1\main.cpp
+1529954064 source:c:\users\ser. amadou olabi\desktop\test_project_1\main.cpp
 	<iostream>
 	<cstdio>
 	<cstdlib>
 	<conio.h>
 	"client.h"
 	"admin.h"
-	"staff.h"
 	"menu.h"
 	"mechanism.h"
 
@@ -68,10 +67,10 @@
 	<conio.h>
 	<ctime>
 
-1529942066 source:c:\users\ser. amadou olabi\desktop\test_project_1\mechanism.cpp
+1529954858 source:c:\users\ser. amadou olabi\desktop\test_project_1\mechanism.cpp
 	"mechanism.h"
 
-1529894561 c:\users\ser. amadou olabi\desktop\test_project_1\mechanism.h
+1529954059 c:\users\ser. amadou olabi\desktop\test_project_1\mechanism.h
 	<iostream>
 	<vector>
 	<fstream>
@@ -83,7 +82,6 @@
 	<conio.h>
 	"client.h"
 	"admin.h"
-	"staff.h"
 	"menu.h"
 	"transaction.h"
 

@@ -783,9 +783,9 @@ admin* LoadData(admin*)
 
 void balance_check(client *customer)
 {
-BALANCE:
     int type;
     account temp_ACC;
+BALANCE:
     system("cls");
     rectangle(10,5,60,18);
     gotoxy(10,6);
@@ -2712,6 +2712,7 @@ ACC_:
     process_execution((char*)"GENERATING && ACTIVATION");
 
     message(string(" :D  ACCOUNT SUCCESSFULLY CREATED !!!"));
+    increase_total_clients();
     saveData(list,2);
 }
 void Add_New(client* list)

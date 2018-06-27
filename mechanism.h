@@ -16,7 +16,7 @@
 
 #include "client.h"
 #include "admin.h"
-#include "staff.h"
+
 #include "menu.h"
 #include "transaction.h"
 
