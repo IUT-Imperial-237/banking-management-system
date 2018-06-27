@@ -1,3 +1,0 @@
-This is an Academic Project on a personal simulation about Bank Management System (in abbrev. BMS).
-It's a Basic Design to represent how a Bank works and what are the different constraints while creating a Client's and the different variants according to the Type of Accounts.
-I used C++ Programming Language to code this project. The Data Structure used to implement this Project, is Double-way Linked List (using Objects).
