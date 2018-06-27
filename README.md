@@ -10,3 +10,12 @@ We used C/C++ Programming Languages to code this project presentation. The inter
 ====================ADMINISTRATORS NOTICES===========================
 
 While moving toward the implementation of this project, we will keep updating the internal structure of it and give comments on our weekly evolution....
+
+
+
+            ####DEFAULT CREDENTIAL FOR ADMIN INTERFACE#######
+            
+                        USERNAME == BMS-DEV
+                        PASSWORD == 123
+                 
+                 REMARK:::  IT'S CASE SENSITIVE
