@@ -44,7 +44,7 @@
                         USERNAME::  BMS-DEV
                         PASSWORD::  123
                 Or use the Credentials of Some Existing Users in the Excel file "Sample_Database_Sheet-BMS.xlsx"
-			to browse hrough their respective Interfaces.
+			to browse through their respective Interfaces.
                 
                                                 @@ ENJOY YOURSELF !!!!!
 					             @@THANKS@@
