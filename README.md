@@ -26,7 +26,7 @@
             3-- Then Run the Project....
             4-- While on the Console Interface, Follow the Given Instructions and browse through the App.
             5-- Use 'A' or 'a' For Admin Interface or Staff Interface. 
-            5-- DEFAULT CREDENTIAL FOR ADMIN INTERFACE {REMARK:: It's Caase Sensitive}
+            5-- DEFAULT CREDENTIAL FOR ADMIN INTERFACE {REMARK:: It's Case Sensitive}
                         USERNAME::  BMS-DEV
                         PASSWORD::  123
             6-- While in Admin Interface, You may Create a New User and set Him as a Staff Member.
