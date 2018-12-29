@@ -153,3 +153,80 @@
 1529657195 source:c:\users\ser. amadou olabi\desktop\project final c++\b m s - source code\transaction.cpp
 	"transaction.h"
 
+1538848300 source:c:\users\amadou olabi yuffon\documents\github\banking-management-system\b m s - source code\account.cpp
+	"account.h"
+
+1538848300 c:\users\amadou olabi yuffon\documents\github\banking-management-system\b m s - source code\account.h
+	<iostream>
+	<cstring>
+	"menu.h"
+
+1538848300 c:\users\amadou olabi yuffon\documents\github\banking-management-system\b m s - source code\menu.h
+	<iostream>
+	<stdio.h>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+	<windows.h>
+	<conio.h>
+	<ctime>
+
+1538848300 source:c:\users\amadou olabi yuffon\documents\github\banking-management-system\b m s - source code\admin.cpp
+	"admin.h"
+
+1538848300 c:\users\amadou olabi yuffon\documents\github\banking-management-system\b m s - source code\admin.h
+	"person.h"
+	"menu.h"
+
+1538848300 c:\users\amadou olabi yuffon\documents\github\banking-management-system\b m s - source code\person.h
+	<iostream>
+	<cstdlib>
+	<cstring>
+
+1538848300 source:c:\users\amadou olabi yuffon\documents\github\banking-management-system\b m s - source code\client.cpp
+	"client.h"
+
+1538848300 c:\users\amadou olabi yuffon\documents\github\banking-management-system\b m s - source code\client.h
+	"person.h"
+	"account.h"
+
+1538848300 source:c:\users\amadou olabi yuffon\documents\github\banking-management-system\b m s - source code\main.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<conio.h>
+	"client.h"
+	"admin.h"
+	"menu.h"
+	"mechanism.h"
+
+1538848300 c:\users\amadou olabi yuffon\documents\github\banking-management-system\b m s - source code\mechanism.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<ctime>
+	<ctype.h>
+	<conio.h>
+	"client.h"
+	"admin.h"
+	"menu.h"
+	"transaction.h"
+
+1538848300 c:\users\amadou olabi yuffon\documents\github\banking-management-system\b m s - source code\transaction.h
+	"client.h"
+
+1539807768 source:c:\users\amadou olabi yuffon\documents\github\banking-management-system\b m s - source code\mechanism.cpp
+	"mechanism.h"
+
+1538848300 source:c:\users\amadou olabi yuffon\documents\github\banking-management-system\b m s - source code\menu.cpp
+	"menu.h"
+
+1538848300 source:c:\users\amadou olabi yuffon\documents\github\banking-management-system\b m s - source code\person.cpp
+	"person.h"
+
+1538848300 source:c:\users\amadou olabi yuffon\documents\github\banking-management-system\b m s - source code\transaction.cpp
+	"transaction.h"
+

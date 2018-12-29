@@ -46,8 +46,6 @@ INFOS:
     cout<<"\tEnter Client's Email : ";
     cin>>email;
 
-
-
 ACC_CONFIRM:
     system("cls");
     rectangle(10,5,75,15);
